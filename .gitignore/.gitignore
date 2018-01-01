@@ -1,0 +1,42 @@
+* {
+    font-family: "HelvetiHand"!important;
+}
+#app-mount,
+.layers,
+.layer:not([layer-id]),
+.base-3AoPqv,
+.titleBar-3_fDwJ,
+#friends,
+.headerBar-cxbhPD,
+.friends-table,
+.container-2OU7Cz,
+.guilds-wrapper,
+.channels-3g2vYe,
+.container-RYiLUQ,
+.container-3lnMWU,
+.container-iksrDt,
+.noChannel-2EQ0a9,
+.chat,
+.title-qAcLxz,
+.chat > .content,
+.messages-wrapper,
+.chat form,
+.channelTextArea-os01xC .inner-3if5cm,
+.channel-members,
+.channel-members-loading,
+.search-results-wrap,
+.typing {
+    background: transparent !important;
+}
+
+body:after {
+    content: "";
+    background-image: url(https://puu.sh/yPscD/7f66ce4e56.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
